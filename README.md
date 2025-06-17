@@ -65,4 +65,4 @@ I won't explain how to use _bluetooth_ on it cause it would start automatically 
 
 Done? Then type `reboot`, press _Enter_ and enjoy your system! 
 
-(Updates will come soo
+(Updates will come soon).
