@@ -43,26 +43,8 @@ mount point: _/_
 type: ext4 |
 mount point: _/home_
 
-Done, return to the main screen and click to install. Wait for system's installation and reboot system. Take out your USB and wait...
+Done? Return to the main screen and click to install. Wait for system's installation and reboot system. Take out your USB and wait...
 
-### Updating and finishing
-
-Your system will request your _login_ and _pass_. Void, by default, just accept installation of things using `sudo`. So, press `su`, type your pass and press `Enter`. You'll have a cli interface with a _#_. It means it worked. 
-
-Then, just type all these commands I'll put here. That's a minimal installation with all things (basic) you'll need to use void. See:
-
-```
-xbps-install -u xbps 
-xbps-install -Syu
-xbps-install pulseaudio dbus xfce4 xorg-minimal xorg-fonts mesa-dri lightdm lightdm-gtk-greeter xfce4-terminal xfce4-plugins NetworkManager network-manager-applet
-
-ln -s /etc/sv/dbus /var/service
-ln -s /etc/sv/NetworkManager /var/service
-ln -s /etc/sv/dbus /var/service
-ln -s /etc/sv/lightdm /var/service
-```
-I won't explain how to use _bluetooth_ on it cause it would start automatically on start, what is not a good choice. 
-
-Done? Then type `reboot`, press _Enter_ and enjoy your system! 
+You can also see about installing a graphical interface of XFCE [on this link](https://github.com/503brain/void-linux-xfce-script).
 
 (Updates will come soon).
